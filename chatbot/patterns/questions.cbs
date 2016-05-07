@@ -1,0 +1,16 @@
+What color is the sky:
+  output = output + "Blue";
+END
+How are you:
+  output = output + "Good, how are you?";
+  chatbot.setMode("Waiting_Response");
+  chatbot.setResponseFile("howAreYouFeeling.csv");
+END
+How are you today:
+  output = output + "Good, how are you?";
+  chatbot.setMode("Waiting_Response");
+  chatbot.setResponseFile("howAreYouFeeling.csv");
+END
+Do you like {food}:
+  output = output + "I have not had that before.";
+END

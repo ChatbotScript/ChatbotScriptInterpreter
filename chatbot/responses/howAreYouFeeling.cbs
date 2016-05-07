@@ -1,0 +1,31 @@
+# Good
+I am feeling good:
+  output = output + "Nice to hear.";
+  chatbot.setMode("Default");
+END
+I am good:
+  output = output + "Nice to hear.";
+  chatbot.setMode("Default");
+END
+good:
+  output = output + "Nice to hear.";
+  chatbot.setMode("Default");
+END
+
+# Great
+Great:
+  output = output + "Nice to hear.";
+  chatbot.setMode("Default");
+END
+I am great:
+  output = output + "Nice to hear.";
+  chatbot.setMode("Default");
+END
+I am feeling great:
+  output = output + "Nice to hear.";
+  chatbot.setMode("Default");
+END
+I have been feeling great:
+  output = output + "Nice to hear.";
+  chatbot.setMode("Default");
+END

@@ -1,0 +1,53 @@
+Apple(Apples):isA:food
+Avocado(Avacados):isA:food
+Banana(Bananas):isA:food
+Blackberry(Blackberries):isA:food
+Blueberry(Blueberries):isA:food
+Broccoli:isA:food
+Cake(Cakes):isA:food
+Candy:isA:food
+Carrot(Carrots):isA:food
+Celery:isA:food
+Cereal:isA:food
+Cheese:isA:food
+Chicken:isA:food
+Chickpea(Chickpeas):isA:food
+Coffee:isA:food
+Crab:isA:food
+Lobster:isA:food
+Clam(Clams):isA:food
+Cucumber(Cucumbers):isA:food
+Egg(Eggs):isA:food
+Fish:isA:food
+Grapefruit(Grapefruits):isA:food
+Grape(Grapes):isA:food
+Honey:isA:food
+Ice Cream:isA:food
+Kiwi fruit(Kiwi fruits):isA:food
+Lettuce:isA:food
+Egg McMuffin(Egg McMuffins):isA:food
+Melon(Melons):isA:food
+Milk:isA:food
+Mushroom(Mushrooms):isA:food
+Nut(Nuts):isA:food
+Peanut(Peanuts):isA:food
+Cashew(Cashews):isA:food
+Almond(Almonds):isA:food
+Nut(Nuts):isA:food
+Oil:isA:food
+Onion(Onions):isA:food
+Orange(Oranges):isA:food
+Pineapple(Pineapples):isA:food
+Potato(Potatos):isA:food
+Rice:isA:food
+Seed(Seeds):isA:food
+Spinach:isA:food
+Squash:isA:food
+Strawberry(Strawberries):isA:food
+Sweet potato(Sweet Potatos):isA:food
+Tomato(Tomatoes):isA:food
+Spaghetti:isA:food
+Steak:isA:food
+Hamburger(Hamburgers):isA:food
+Hot Dog(Hot Dogs):isA:food
+Yogurt:isA:food

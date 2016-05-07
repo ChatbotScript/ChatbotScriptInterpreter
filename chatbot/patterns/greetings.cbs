@@ -1,0 +1,12 @@
+Hi:
+  output = output + "Hello.";
+END
+Hello:
+  output = output + "Hello.";
+END
+Hey:
+  output = output + "Hello.";
+END
+What s up:
+  output = output + "Hello.";
+END
