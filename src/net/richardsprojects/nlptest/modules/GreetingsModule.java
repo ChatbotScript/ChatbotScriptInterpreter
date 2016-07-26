@@ -12,13 +12,14 @@ package net.richardsprojects.nlptest.modules;
 import java.io.File;
 import java.io.IOException;
 
+import net.richardsprojects.nlptest.Main;
 import net.richardsprojects.nlptest.core.Patterns;
 
 public class GreetingsModule extends Module {
 
 	@Override
 	public String getResult(String input) {
-		Patterns greetings = new Patterns("resources" + File.separator + "patterns" + File.separator + "greetings.csv");
+		Patterns greetings = new Patterns(Main.CHATBOT_NAME + File.separator + "patterns" + File.separator + "greetings.cbs");
 		
 		try {
 			greetings.load();

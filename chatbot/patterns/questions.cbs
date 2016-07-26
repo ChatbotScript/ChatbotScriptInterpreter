@@ -4,12 +4,12 @@ END
 How are you:
   output = output + "Good, how are you?";
   chatbot.setMode("Waiting_Response");
-  chatbot.setResponseFile("howAreYouFeeling.csv");
+  chatbot.setResponseFile("howAreYouFeeling.cbs");
 END
 How are you today:
   output = output + "Good, how are you?";
   chatbot.setMode("Waiting_Response");
-  chatbot.setResponseFile("howAreYouFeeling.csv");
+  chatbot.setResponseFile("howAreYouFeeling.cbs");
 END
 Do you like {food}:
   output = output + "I have not had that before.";

@@ -14,7 +14,9 @@ import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.richardsprojects.nlptest.Main;
 import net.richardsprojects.nlptest.core.objects.ProcessedSentence;
+import net.richardsprojects.nlptest.triples.Triple;
 
 import edu.stanford.nlp.ling.HasWord;
 import edu.stanford.nlp.ling.Sentence;
@@ -43,6 +45,7 @@ public class Preprocessor {
 	
 	public static String processSentence(String input) {
 		// remove punctuation
+		input = input.trim();
 		input = input.replace("'", " ");
 		input = input.replace(" ,", "");
 		input = input.replace(" ?", "");
@@ -58,7 +61,19 @@ public class Preprocessor {
 		input = input.replace("{", "");
 		input = input.replace("}", "");
 		
-		// TODO: Replace select words with brackets for their type
+		// replace triples with their categories
+		for(Triple t : Main.triples) {
+			// TODO: Save the value that was replaced so they can be manipulated with script
+			// TODO: Save whether it was plural or not as well
+			if(input.toLowerCase().contains(t.getObject().getObjectPlural().toLowerCase())) {
+				input = input.replaceAll("(?i)" + t.getObject().getObjectPlural(), "{" + t.getCategory().getName() + "}");
+				continue;
+			}
+			if(input.toLowerCase().contains(t.getObject().getObjectName().toLowerCase())) {
+				input = input.replaceAll("(?i)" + t.getObject().getObjectName(), "{" + t.getCategory().getName() + "}");
+				continue;
+			}
+		}
 		
 		// TODO: Add support for recognizing dates using the Natty library
 		// http://natty.joestelmach.com/

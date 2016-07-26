@@ -21,6 +21,7 @@ import javax.script.ScriptException;
 
 import net.richardsprojects.nlptest.Main;
 import net.richardsprojects.nlptest.Utils;
+import net.richardsprojects.nlptest.triples.Triple;
 
 public class Patterns {
 
@@ -62,7 +63,7 @@ public class Patterns {
 		}
 	}
 	
-	public String getResult(String pattern) {
+	public String getResult(String pattern) {		
 		int i = 0;
 		for(String p: patterns) {
 			if(p.equalsIgnoreCase(pattern)) {

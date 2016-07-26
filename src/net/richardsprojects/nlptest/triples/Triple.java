@@ -10,5 +10,26 @@
 package net.richardsprojects.nlptest.triples;
 
 public class Triple {
+	
+	private CBSObject object;
+	private Category category;
+	private Relationship relationship;
+	
+	public Triple(CBSObject noun, Relationship relation, Category category) {
+		object = noun;
+		relationship = relation;
+		this.category = category; 
+	}
+	
+	public CBSObject getObject() {
+		return object;
+	}
 
+	public Relationship getRelationship() {
+		return relationship;
+	}
+
+	public Category getCategory() {
+		return category;
+	}
 }

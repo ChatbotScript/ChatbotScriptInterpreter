@@ -1,3 +1,7 @@
+# Put words that contain other words on the list first
+Egg McMuffin(Egg McMuffins):isA:food
+
+# Rest of the words
 Apple(Apples):isA:food
 Avocado(Avacados):isA:food
 Banana(Bananas):isA:food
@@ -25,7 +29,6 @@ Honey:isA:food
 Ice Cream:isA:food
 Kiwi fruit(Kiwi fruits):isA:food
 Lettuce:isA:food
-Egg McMuffin(Egg McMuffins):isA:food
 Melon(Melons):isA:food
 Milk:isA:food
 Mushroom(Mushrooms):isA:food
